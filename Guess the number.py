@@ -9,7 +9,7 @@ while(True):    # Keep running the loop until the number is guessed
     elif user < num:
         print("Higher number please!")
     else:
-        print("Congratulations you guess the number")
+        print("Congratulations \U0001F389 you guess the number")
         print("You guessed it in" , num_guess , "attempts\n")
         break
     num_guess += 1
